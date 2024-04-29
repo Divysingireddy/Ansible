@@ -5,13 +5,13 @@
     PERSON2: "SURESH"
   vars_files:
   - vars.yaml
-  vars_prompt:
-  - name: PERSON1
-    prompt: Name of PERSON1 is
-    private: false
-  - name: PERSON2
-    prompt: Name of PERSON2 is
-    private: false
+  # vars_prompt:
+  # - name: PERSON1
+  #   prompt: Name of PERSON1 is
+  #   private: false
+  # - name: PERSON2
+  #   prompt: Name of PERSON2 is
+  #   private: false
   tasks:
   - name: check preference
     vars:
