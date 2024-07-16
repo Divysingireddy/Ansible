@@ -11,3 +11,11 @@
   - name: PLAY-2 and TASK-2
     ansible.builtin.debug:
       msg: "Hello Iam from PLAY-2 and TASK-2"
+
+- name: PLAY-3
+  hosts: localhost
+  tasks:
+  - name: PLAY-3 and TASK-3
+    ansible.builtin.debug:
+      msg: "Hello Iam from PLAY-3 and TASK-3"
+      
